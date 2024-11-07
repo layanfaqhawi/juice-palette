@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px)
+{
+    #btn
+    {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+h3
+{
+    text-align: center;
+}
+
+.prof
+{
+    text-align: center;
+}
+
+#btn
+{
+    width: 250px;
+    background-color: #235347;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 1%;
+    height: 5%;
+    font-weight: bold;
+    font-size: 100%;
+    box-shadow: 4px 4px 5px #549b6a;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#btn:hover
+{
+    background-color: #8eb69b;
+}

@@ -1,0 +1,149 @@
+body {
+    background-color: #fff0d9;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    #orange, #strawberry
+    {
+        display: none;
+    }
+
+    .txt h1
+    {
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 60%;
+    }
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content {
+    flex: 1;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.headbar {
+    background-color: #ffe6b1;
+    border-bottom-left-radius: 30pt;
+    border-bottom-right-radius: 30pt;
+}
+
+.txt {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-weight: bold;  
+    font-size: 200%;
+}
+
+.txt p {
+    text-align: justify;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.flex-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+    transition: transform 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.one {
+    transform: scale(0.9);
+    background-image: url(orange_splash.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50%;
+    background-position-y: 70%;
+}
+
+.one:hover
+{
+    transform: scale(1.0);
+}
+
+.two {
+    transform: scale(1.2);
+    background-image: url(green_splash.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.two:hover
+{
+    transform: scale(1.3);
+}
+
+.three {
+    transform: scale(0.9);
+    background-image: url(red_splash.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 50%;
+    background-position-y: 70%;
+}
+
+.three:hover
+{
+    transform: scale(1.0);
+}
+
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.5s;
+}
+
+.flex-item:hover img {
+    transform: scale(1.1);
+}
+
+.btn
+{
+    text-align: center;
+}
+
+.btn button {
+    background-color: #235347;
+    color: white;
+    border: none;
+    border-radius: 20px;    
+    font-weight: bold;
+    font-size: 200%;
+    box-shadow: 4px 4px 5px #549b6a;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.btn button:hover {
+    background-color: #8eb69b;
+}

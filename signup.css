@@ -1,0 +1,25 @@
+.headbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#SignUpForm{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+img{
+        max-width: 100%;
+        height: auto;
+        width: 20%;
+        padding-left: 40%;
+}
+
+fieldset{
+        border-radius: 5%;
+        border-style: solid;
+        border-width: 1px;
+}

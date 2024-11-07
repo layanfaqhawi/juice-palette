@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link href="Forms.css" type="text/css" rel="stylesheet">
+        <link href="icon.png" rel="icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="headbar">
+            <a href="home.php">
+                <img id="logo" src="juicepaletteLogo.png">
+            </a>
+        </div>
+        <div class="forms">
+            <form action="signup.php" method="post" onsubmit="return checkForm();">
+                <fieldset>
+                    <h1>Sign Up</h1>
+                    <div class="input">
+                        <div class="inputDiv">
+                            <label for="fname" style="margin-bottom: 5px;">First Name</label>
+                            <input type="text" id="fname" name="fname" size="22" class="required" style="padding: 4%;">
+                        </div>
+                        <div class="inputDiv">
+                            <label for="lname" style="margin-bottom: 5px;">Last Name</label>
+                            <input type="text" id="lname" name="lname" size="22" class="required" style="padding: 4%;">
+                        </div>
+                    </div>
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" name="email" size="21" style="margin-top: 5px;" class="required"> <br>
+                    <label for="passKey">Password</label> <br>
+                    <input type="password" id="passKey" name="password" size="21" placeholder="At least 8 characters" style="margin-top: 5px;" class="required"  onblur="checkPasswordLength()">
+                    <span id="passwordTip" style="color: red; display: none;  font-size: smaller;"></span> <br>
+                    <label for="passkeyCONF">Confirm Password</label> <br>
+                    <input type="password" id="passkeyCONF" name="passkeyCONF" size="21" style="margin-top: 5px;" class="required" onblur="checkPasswordMatch()">
+                    <span id="confirmPasswordTip" style="color: red; display: none; font-size: smaller;"></span>
+                    <div class="centreButton">
+                        <button type="submit" id="signUp" name="signUp" class="submitButtons">Sign Up</button>
+                    </div>
+                    <P>Already have an account? <a href="login.php">Login</a></P>
+                </fieldset>
+            </form>
+        </div>
+        <script>
+            function checkPasswordLength() {
+                var p1 = document.getElementById("passKey");
+                var tip = document.getElementById("passwordTip");
+                if (p1.value.length < 8) {
+                    tip.style.display = "inline";
+                    tip.textContent = "8 or more characters";
+                    p1.style.borderColor = "red";
+                    return false;
+                } else {
+                    tip.style.display = "none";
+                    p1.style.borderColor = ""; // Reset border color if corrected
+                    return true;
+                }
+            }
+
+            function checkPasswordMatch() {
+                var p1 = document.getElementById("passKey");
+                var p1conf = document.getElementById("passkeyCONF");
+                var tip = document.getElementById("confirmPasswordTip");
+                if (p1.value !== p1conf.value) {
+                    tip.style.display = "inline";
+                    tip.textContent = "Passwords do not match";
+                    p1conf.style.borderColor = "red";
+                    return false;
+                } else {
+                    tip.style.display = "none";
+                    p1conf.style.borderColor = ""; // Reset border color if corrected
+                    return true;
+                }
+            }
+
+            function checkForm() {
+                // Perform all checks and return the result to control form submission
+                var isLengthValid = checkPasswordLength();
+                var isMatchValid = checkPasswordMatch();
+                return isLengthValid && isMatchValid;
+            }
+        </script>
+       
+    </body>
+</html>

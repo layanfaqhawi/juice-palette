@@ -1,0 +1,225 @@
+body
+{
+    background-color: #fff0d9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cart
+{
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+    border: #235347 solid;
+    height: 70%;
+}
+
+.cart h3
+{
+    color: #235347;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cart hr
+{
+    color: #235347;
+    background-color: #235347;
+    height: 1px;
+    border: none;
+}
+
+.product-image {
+    width: 13%;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.lemon
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffeebd;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.greenapple
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #c6edc3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.orange
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffcc9f;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.strawberry
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffb3b3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.mango
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffb669;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.blueraspberry
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #d0efff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.watermelon
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ff9797;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.grape
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #d8c1eb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.product-quantity {
+    font-size: 14px;
+    color: white;
+}
+
+.btn
+{
+    text-align: center;
+}
+
+.btn h3
+{
+    text-align: center;
+}
+
+.btn button
+{
+    background-color: #235347;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 100%;
+    box-shadow: 4px 4px 5px #549b6a;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn button:hover
+{
+    background-color: #8eb69b;
+}
+
+.clr
+{
+    background-color: #235347;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 100%;
+    box-shadow: 4px 4px 5px #549b6a;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.clr:hover
+{
+    background-color: #8eb69b;
+}
+
+.removeitem
+{
+    border-radius: 10px;
+    background-color: white;
+    border: #235347 solid 2px;
+    color: #235347;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.removeitem:hover
+{
+    background-color: #cacaca;
+}

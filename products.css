@@ -1,0 +1,118 @@
+*
+{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .flex-container
+{ 
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+#lemon, #greenapple, #orange, #strawberry, #mango, #blueraspberry, #watermelon, #grape{
+    width: 100%;
+}
+
+}
+
+.big-flex
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container
+{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.flex-item
+{
+    background-color: #fff;
+    width: 22%;
+    padding: 1%;
+}
+
+.item, .price
+{
+    text-align: center;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight
+{
+    transition: 300ms;
+    text-align: center;
+    border-radius: 20px;
+}
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover
+{
+    transition: 300ms;
+    width: 23%;
+}
+
+.one:hover
+{
+    background-color: #ffeebd;
+}
+
+.two:hover
+{
+    background-color: #c6edc3;
+}
+
+.three:hover
+{
+    background-color: #ffcc9f;
+}
+
+.four:hover
+{
+    background-color: #ffb3b3;
+}
+
+.five:hover
+{
+    background-color: #ffb669;
+}
+
+.six:hover
+{
+    background-color: #d0efff;
+}
+
+.seven:hover
+{
+    background-color: #ff9797;
+}
+
+.eight:hover
+{
+    background-color: #d8c1eb;
+}
+
+.one, .two, .three, .four
+{
+    margin-bottom: 5%;
+}
+
+img
+{
+    border-radius: 20px;
+}
+
+body
+{
+    background-color: #fff;
+}

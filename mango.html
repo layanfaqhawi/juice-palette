@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mango</title>
+        <link href="juicepalette.css" type="text/css" rel="stylesheet">
+        <link href="mango.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="icon.png" rel="icon">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="headbar"id="top">
+                <br>
+                <a href="home.php">
+                <img id="logo" src="juicepaletteLogo.png" width="25%">
+                </a>
+                <div class="navigation">
+                    <p>
+                        <a class="nav" href="home.php">Home</a><a class="nav" href="products.php">Products</a><a class="nav" href="login.php">Login/Register</a><a class="nav" href="cart.php">Cart</a><a class="nav" href="profile.php">Profile</a>
+                    </p>
+                </div>
+            </div>
+
+        <div class="page-content">
+                <div class="col-5" id="left">
+                    <img src="mango_page.png">
+                </div>
+                <div class="col-7" id="mid">
+            <h1>Tropical Bliss in Every Sip</h1>
+            <p>Experience the tropical delight of our premium mango juice, crafted from the finest, sun-ripened mangoes. Each sip delivers a rich,
+                velvety taste that transports you straight to a sun-soaked orchard, capturing the essence of summer in every bottle.<br>
+            <span>100% Natural and Pure:</span> Our mango juice is made from freshly picked mangoes, with no added sugars, preservatives,
+            or artificial flavors. It's nature's sweetness, bottled for your enjoyment.<br>
+            <span>Rich in Nutrients:</span> Packed with essential vitamins A and C, antioxidants, and dietary fiber, our mango juice supports
+            your health while delighting your taste buds.</p><br>
+        </div>
+        <div class="col-7" id="right">
+            <div id="price">
+            <p>4.00 JD</p>
+            <label>Quantity: </label><input name="quan" id="quantity" type="number" value="1" min="1" max="15"><br><br>
+            <button onclick="addCart(5,document.getElementById('quantity').value)">Add to cart</button>
+        </div>
+    </div>
+</div>
+        <div class="footer">
+            <br><br><br><br>
+            <a href="#top" class="jumptotop">
+            <div class="footer1">
+                <h4>Back to top</h4>
+            </div>
+            </a>
+
+            <div class="footer2">
+
+            </div>
+            <div class="footer3">
+
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="specCart.js"></script>
+    </body>
+</html>

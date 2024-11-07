@@ -1,0 +1,183 @@
+body
+{
+    background-color: #fff0d9;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .headbar
+    {
+        flex-direction: column;
+    }
+
+    #logo
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+
+}
+
+head
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color: #235347;
+}
+
+.page-container
+{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 250px;
+}
+
+.page-content
+{
+    flex: 1;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+
+.headbar
+{
+    background-color: #ffe6b1;
+    border-bottom-left-radius: 30pt;
+    border-bottom-right-radius: 30pt;
+    display: flex;
+    align-items: center;
+}
+
+.headbar img
+{
+    margin: 0; 
+    margin-left: 1%;
+    display: inline; 
+    padding-left: 0%;
+}
+
+.navigation
+{
+    margin-right: 1%;
+}
+
+.nav
+{
+    font-weight: bold;
+    transition: 300ms;
+    text-decoration: none;
+    color: #fbaa27;
+    margin: 5px;
+}
+
+.nav:hover
+{
+    transition: 300ms;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    background-color: #cd7d1b;
+    border-radius: 20px;
+}
+
+.jumptotop
+{
+    text-decoration: none;
+}
+
+.footer
+{  
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.footer1
+{
+    display: flex;
+    background-color: #fff0d9;
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 h4
+{
+    color: #fbaa27;
+}
+
+.footer2
+{
+    background-color: #f79126;
+    height: 100px;
+    width: 100%;
+}
+
+.footer3
+{
+    background-color: #235347;
+    height: 75px;
+    width: 100%;
+}
+
+button.juicebtn
+{
+    background-color: #235347;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
+    height: 5%;
+    font-weight: bold;
+    font-size: 100%;
+    box-shadow: 4px 4px 5px #549b6a;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+button.juicebtn:hover
+{
+    background-color: #8eb69b;
+}
+
+#SignUpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: #cd7d1b;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus
+{
+    outline:none;
+    border-bottom-color: #235347;
+}

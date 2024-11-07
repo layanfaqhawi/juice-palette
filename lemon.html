@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lemon juice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="juicepalette.css" type="text/css" rel="stylesheet">
+        <link href="lemon.css" type="text/css" rel="stylesheet">
+        <link href="icon.png" rel="icon">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="headbar" id="top">
+                <br>
+                <a href="home.php">
+                <img id="logo" src="juicepaletteLogo.png" width="25%">
+                </a>
+                <div class="navigation">
+                    <p>
+                        <a class="nav" href="home.php">Home</a><a class="nav" href="products.php">Products</a><a class="nav" href="login.php">Login/Register</a><a class="nav" href="cart.php">Cart</a><a class="nav" href="profile.php">Profile</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page-content">
+                <div class="col-5" id="left">
+                    <img src="lemon_page.png">
+                </div>
+                <div class="col-7" id="mid">
+                    <h1>Pure Sunshine in a Bottle</h1>
+                    <p>Unlock the secret to vibrant, flavorful dishes with our premium lemon juice. Squeezed from the finest,
+                        sun-ripened lemons, our juice captures the essence of freshness and the invigorating tang of nature's bounty.<br>
+                    <span>100% Natural and Pure:</span> Our lemon juice is made from freshly squeezed lemons, with no added preservatives or artificial flavors. 
+                    It's nature's goodness, bottled up for you.<br>
+                    <span>Rich in Vitamin C:</span> Boost your immunity and enhance your overall well-being with every drop. Our lemon juice is packed with vitamin C, 
+                    essential for a healthy lifestyle.</p><br>
+                </div>
+                <div class="col-7" id="right">
+                    <div id="price">
+                        <p>3.00 JD</p>
+                        <label>Quantity: </label>
+                        <input name="quan" id="quantity" type="number" value="1" min="1" max="15"><br><br>
+                        <button onclick="addCart(1,document.getElementById('quantity').value)">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <a href="#top" class="jumptotop">
+                    <div class="footer1">
+                        <h4>Back to top</h4>
+                    </div>
+                </a>
+
+                <div class="footer2"></div>
+                <div class="footer3"></div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="specCart.js"></script>
+    </body>
+</html>

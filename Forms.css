@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px)
+{
+        #logo
+        {
+                margin-left: 25%;
+                padding: 0%;
+                width: 50%;
+        }
+}
+
+body
+{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #fff0d9;
+        color: #235347;
+}
+
+.headbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.forms{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+img{
+        max-width: 100%;
+        height: auto;
+        width: 20%;
+        padding-left: 40%;
+}
+
+fieldset{
+        border-radius: 25px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #fff0d9;
+        border-color: #235347;
+        border-style: solid;
+        border-width: 3px;
+
+}
+
+input{
+        border-radius: 10px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #235347;
+        background-color: white;
+}
+
+textarea{
+        border-radius: 10px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #235347;
+        background-color: white;
+        border-width: 2px;
+}
+
+input:focus{
+        outline-color: #235347;
+        border-color: none;
+}
+
+input.empty-field{
+        border-color: #d85127;
+        border-radius: 10px;
+}
+
+.centreButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.submitButtons{
+        border-radius: 10px;
+        border-color: #f79126;
+        border-radius: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        background-color: #f79126;
+        font-weight: bold;
+        padding: 5px 15px 5px 15px;
+        margin-top: 50px;
+}
+
+.centreButton a{
+        color: white;
+        text-decoration: none;
+}
+
+a{
+        color: #235347;
+}
+a:active{
+        color: #f6c75d;
+}
+a:hover{
+        color: #f79126;
+}
+
+.input{
+        display: flex;
+        justify-content: space-between;
+}
+
+.inputDiv{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+}
+
+input
+{
+        padding: 2%;
+}

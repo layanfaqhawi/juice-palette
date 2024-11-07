@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blue Raspberry</title>
+        <link href="juicepalette.css" type="text/css" rel="stylesheet">
+        <link href="blueraspberry.css" type="text/css" rel="stylesheet">
+        <link href="icon.png" rel="icon">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="headbar"id="top">
+                <br>
+                <a href="home.php">
+                <img id="logo" src="juicepaletteLogo.png" width="25%">
+                </a>
+                <div class="navigation">
+                    <p>
+                        <a class="nav" href="home.php">Home</a><a class="nav" href="products.php">Products</a><a class="nav" href="login.php">Login/Register</a><a class="nav" href="cart.php">Cart</a><a class="nav" href="profile.php">Profile</a>
+                    </p>
+                </div>
+            </div>
+
+
+        <div class="page-content">
+                <div class="col-5" id="left">
+                    <img src="blueraspberry_page.png">
+                </div>
+                <div class="col-7" id="mid">
+            <h1>A Burst of Berry Bliss</h1>
+            <p>Indulge in the vibrant taste of our premium raspberry juice, crafted from the juiciest, sun-ripened raspberries. Each sip
+                delivers a refreshing burst of sweet and tart flavors that captures the essence of freshly harvested berries, bringing a touch
+                of summer to your glass all year round.<br>
+            <span>100% Natural and Pure:</span> Our raspberry juice is made from freshly picked raspberries, with no added sugars, preservatives,
+            or artificial flavors. Enjoy the natural sweetness and authentic taste of real raspberries.<br>
+            <span>Naturally Sweet and Tart:</span> Relish the pure, natural balance of sweetness and tartness of raspberries without any added
+            sugars. It's a wholesome and delicious treat that's as nutritious as it is tasty.</p><br>
+        </div>
+        <div class="col-7" id="right">
+            <div id="price">
+            <p>4.00 JD</p>
+            <label>Quantity: </label><input name="quantity" id="quantity" type="number" min="1" max="15" value="1"><br><br>
+            <button onclick="addCart(6,document.getElementById('quantity').value)">Add to cart</button>
+        </div>
+    </div>
+</div>
+
+        <div class="footer">
+            <br><br><br><br>
+            <a href="#top" class="jumptotop">
+            <div class="footer1">
+                <h4>Back to top</h4>
+            </div>
+            </a>
+
+            <div class="footer2">
+
+            </div>
+            <div class="footer3">
+
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="specCart.js"></script>
+    </body>
+</html>

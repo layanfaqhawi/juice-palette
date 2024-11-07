@@ -1,0 +1,188 @@
+@media only screen and (max-width:1920px){
+    .summary{
+        width:15%;
+        position: absolute;
+        right: 20%;
+    }
+    .fullform
+    {
+        width: 35%;
+    }
+    .footer
+    {  
+        position: absolute;
+        bottom: -500px;
+        width: 100%;
+        height: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .summary{
+        width:60%;
+        position:absolute;
+        top: 94%;
+        right: 20%;
+    }
+    .btn{
+        margin-top:310px;
+        margin-right: 0px;
+    }
+    .fullform{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .footer{  
+        position: absolute;
+        bottom: -800px;
+        width: 100%;
+        height: 2.5rem;
+    }
+    .page-content
+    {
+        justify-content: center;
+    }
+    .address input, #fname, #lname
+    {
+        width: 40%;
+    }
+    
+}
+
+body
+{
+    background-color: #fff0d9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #235347;
+}
+
+.headbar
+{
+    display: flex;
+    align-items: center;
+}
+
+.summary
+{
+    border: 3px solid #235347;
+    margin-top: 2% ;
+    margin-right: 2%;
+    border-radius: 20px;
+}
+
+.btn
+{
+    text-align: center;
+}
+
+.juicebtn
+{
+    width: 75%;
+
+}
+
+.fullform
+{
+    position: absolute;
+    margin-left: 10%;
+
+}
+
+fieldset
+{
+    border-radius: 20px;
+}
+
+form h2
+{
+    position: relative;
+    right: 5%;
+}
+
+input
+{
+    margin: 1%;
+    width: 40%;
+    
+}
+
+#fname, #lname
+{
+    width: 40%;
+}
+
+select{
+    border-radius: 10px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #235347;
+        background-color: white;
+        margin-left: 10px;
+        border-width: 2px;
+        margin-top: 5px;
+        
+}
+
+input{
+    border-radius: 10px;
+    padding: 2px;
+    border-style: solid;
+    border-color: #235347;
+    background-color: white;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 2px;
+    border-style: solid;
+    border-color: #235347;
+    background-color: white;
+    border-width: 2px;
+}
+
+input:focus{
+    outline-color: #235347;
+    border-color: none;
+}
+
+input.empty-field{
+    border-color: #d85127;
+    border-radius: 10px;
+}
+
+.submitButtons{
+    border-radius: 10px;
+    border-color: #f79126;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #f79126;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    margin-top: 5%;
+}
+
+.submitButtons:hover
+{
+    background-color: #ffbf7b;
+}
+
+fieldset{
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff0d9;
+    border-color: #235347;
+    border-style: solid;
+    border-width: 3px;
+}
+
+label.fname
+{
+    margin-right: 35%;
+}
+
+label.add1
+{
+    margin-right: 35%;
+}

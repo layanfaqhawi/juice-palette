@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grape</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="juicepalette.css" type="text/css" rel="stylesheet">
+        <link href="grape.css" type="text/css" rel="stylesheet">
+        <link href="icon.png" rel="icon">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="headbar"id="top">
+                <br>
+                <a href="home.php">
+                <img id="logo" src="juicepaletteLogo.png" width="25%">
+                </a>
+                <div class="navigation">
+                    <p>
+                        <a class="nav" href="home.php">Home</a><a class="nav" href="products.php">Products</a><a class="nav" href="login.php">Login/Register</a><a class="nav" href="cart.php">Cart</a><a class="nav" href="profile.php">Profile</a>
+                    </p>
+                </div>
+            </div>
+
+        <div class="page-content">
+                <div class="col-5" id="left">
+                    <img src="grape_page.png">
+                </div>
+                <div class="col-7" id="mid">
+            <h1>Pure Vineyard Delight</h1>
+            <p>Experience the pure pleasure of our premium grape juice, crafted from the finest, sun-ripened grapes. Each sip delivers a rich,
+                full-bodied flavor that transports you to a lush vineyard, capturing the essence of nature's bounty in every bottle.<br>
+            <span>100% Natural and Pure:</span> Our grape juice is made from freshly harvested grapes, with no added sugars, preservatives,
+            or artificial flavors. Enjoy the authentic taste of pure grapes.<br>
+            <span>Rich in Antioxidants:</span> Packed with powerful antioxidants, vitamins, and minerals, our grape juice supports your health
+            and well-being while delighting your palate.</p><br>
+        </div>
+        <div class="col-7" id="right">
+            <div id="price">
+            <p>5.00 JD</p>
+            <label>Quantity: </label><input name="quan" id="quantity" type="number" value="1" min="1" max="15"><br><br>
+            <button onclick="addCart(8,document.getElementById('quantity').value)">Add to cart</button>
+        </div>
+    </div>
+</div>
+
+        <div class="footer">
+            <br><br><br><br>
+            <a href="#top" class="jumptotop">
+            <div class="footer1">
+                <h4>Back to top</h4>
+            </div>
+            </a>
+
+            <div class="footer2">
+
+            </div>
+            <div class="footer3">
+
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="specCart.js"></script>
+    </body>
+</html>
