@@ -1,9 +1,3 @@
-
----
-
-### **Juice Palette - eCommerce Website**
-
-```markdown
 # Juice Palette - eCommerce Website
 
 ## Project Description
@@ -15,6 +9,13 @@ Juice Palette is a vibrant, interactive eCommerce website designed for a juice s
 - **Shopping Cart**: Users can add items to the cart, view their cart, and remove items.
 - **Checkout**: Secure checkout with options for shipping and payment.
 - **Database Integration**: Tracks users, orders, and product information.
+
+## Pages and Key Components
+- **Home Page**: Displays featured products and navigation links to different sections of the website.
+- **Product Pages**: Detailed pages for each juice, showing descriptions, images, and an "Add to Cart" option.
+- **Cart Page**: Allows users to view items added to their cart, adjust quantities, and remove items.
+- **Checkout Page**: Collects shipping and payment information for order processing.
+- **Profile Page**: Displays user information with options to view past orders or log out.
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
