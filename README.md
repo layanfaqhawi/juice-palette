@@ -1,62 +1,27 @@
-# Project Title
 
-Simple overview of use/purpose.
+---
 
-## Description
+### **Juice Palette - eCommerce Website**
 
-An in-depth paragraph about your project and overview of use.
+```markdown
+# Juice Palette - eCommerce Website
 
-## Getting Started
+## Project Description
+Juice Palette is a vibrant, interactive eCommerce website designed for a juice shop. The site provides a visually engaging and user-friendly experience where users can browse a variety of fruit juices, add them to the cart, and proceed through a secure checkout process.
 
-### Dependencies
+## Features
+- **Product Display**: Showcases a variety of juices with high-quality images.
+- **User Registration and Login**: Allows users to create accounts, log in, and view their profile.
+- **Shopping Cart**: Users can add items to the cart, view their cart, and remove items.
+- **Checkout**: Secure checkout with options for shipping and payment.
+- **Database Integration**: Tracks users, orders, and product information.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP, MySQL
+- **Tools**: Visual Studio Code, XAMPP
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
